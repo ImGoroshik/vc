@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto Condensed" sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: rgb(241, 225, 225);
+    height: 900px;
+}
+
+section{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    min-height: 1000hv;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    background-attachment: scroll;
+}
+
+
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    padding: 12.5px 220px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    max-width: 140px;
+    cursor: pointer;
+}
+
+header .logo2{
+    position: relative;
+    max-width: 20px;
+    cursor: pointer;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Roboto";
+    transition: 0.3s;
+    margin: auto;
+    padding-top: 18px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+header ul li a:hover{
+    background: rgb(255, 241, 241);
+}
+
+.main{
+    margin-top: 120px;
+    margin-left: 120px;
+    max-width: 1000px;
+}
+
+.sub{
+    margin-left: -45px;
+}
+
+.sub2{
+    margin-left: -70;
+}
+
+span{
+    margin-left: 0px;
+    padding-left: 30px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: small;
+    color: rgb(87, 87, 87)
+}
+
+.block{
+    margin-left: 900px;
+    margin-top: 100px;
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    max-width: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.end{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: small;
+    margin-top: 60px;
+    margin: center;
+    text-align: center;
+}
+
+.text_in_block{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+.block2{
+    margin-left: 900px;
+    margin-top: 570px;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    max-width: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+input[type="text"] , input[type="password"]{
+    width: 280px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+}
+
+input[type="text"]{
+    margin-top: 50px;
+}
+
+.submit{
+    padding: 10px 15px;
+    background: rgb(49, 117, 196);
+    width: 100px;
+    height: 37px;
+    border: none;
+    margin-left: 0px;
+    border-radius: 4px;
+    font-weight: normal;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.submit:hover{
+    background: rgb(94, 167, 250);
+}
+
+.end2{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: small;
+    margin-top: 100px;
+    margin: center;
+    text-align: center;
+    color: rgb(158, 158, 158);
+}
+
+.block2{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 300;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.block2_text{
+    margin-top: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(158, 158, 158);
+}
+
+.en{
+    cursor: pointer;
+
+}
+
+.block3_text{
+    margin-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(100, 97, 97);
+    font-size: small;
+    cursor: pointer;
+}
+
+.fog{
+    text-align: center;
+    margin-top: 250px;
+    font-family: "Roboto";
+}
+
+.fog_text{
+    font-family: "Roboto";
+    padding-top: 50px;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 560px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+}
+
+.fog_text2{
+    font-family: "Roboto";
+    padding-top: 20px;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 560px;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+}
